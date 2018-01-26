@@ -1,0 +1,73 @@
+body {
+	font-family: 'Lato', serif;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('crater.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  height: 500px;
+  font-family: 'Lato', serif;
+}
+
+.jumbotron h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.jumbotron h3 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
