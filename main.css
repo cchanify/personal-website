@@ -32,24 +32,76 @@ header p {
   margin: 0;
 }
 
+.photo {
+	display: inline-block;
+	max-height: 150px;
+	/*height: 100%;*/
+}
+
+.photos {
+	margin: 5em 0 0 0;
+}
+
+@media only screen and (min-width: 500px) {
+	.photos {
+		margin: 5em 5em 0 5em;
+	}
+}
+
+.pref {
+	background-color: #555;
+	position: relative;
+	margin: 0;
+	padding: 3em 1em;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	color: white;
+}
+
+.pref.mountains {
+    background-image: url('mountains.jpg');
+    padding: 5em 10em;
+}
+
+.pref.coast {
+    background-image: url('coast.jpg');
+    padding: 5em 10em;
+}
+
+.pref.squirrel {
+    background-image: url('squirrel.jpg');
+    padding: 5em 10em;
+}
+
+.pref.seattle {
+    background-image: url('seattle.jpg');
+    padding: 5em 10em;
+}
+
+.pref.blanca {
+    background-image: url('blanca.jpg');
+    padding: 5em 10em;
+}
+
 .jumbotron {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   background-image: url('crater.jpg');
   background-size: cover;
   background-position: center;
-  color: #ffffff;
+  color: black;
   height: 500px;
   font-family: 'Lato', serif;
 }
 
 .jumbotron h2 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
 }
 
 .jumbotron h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
 }
 
