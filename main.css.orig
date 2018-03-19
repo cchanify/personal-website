@@ -1,0 +1,125 @@
+body {
+	font-family: 'Lato', serif;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.photo {
+	display: inline-block;
+	max-height: 150px;
+	/*height: 100%;*/
+}
+
+.photos {
+	margin: 5em 0 0 0;
+}
+
+@media only screen and (min-width: 500px) {
+	.photos {
+		margin: 5em 5em 0 5em;
+	}
+}
+
+.pref {
+	background-color: #555;
+	position: relative;
+	margin: 0;
+	padding: 3em 1em;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	color: white;
+}
+
+.pref.mountains {
+    background-image: url('mountains.jpg');
+    padding: 5em 10em;
+}
+
+.pref.coast {
+    background-image: url('coast.jpg');
+    padding: 5em 10em;
+}
+
+.pref.squirrel {
+    background-image: url('squirrel.jpg');
+    padding: 5em 10em;
+}
+
+.pref.seattle {
+    background-image: url('seattle.jpg');
+    padding: 5em 10em;
+}
+
+.pref.blanca {
+    background-image: url('blanca.jpg');
+    padding: 5em 10em;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: flex-start;
+  background-image: url('crater.jpg');
+  background-size: cover;
+  background-position: center;
+  color: black;
+  height: 500px;
+  font-family: 'Lato', serif;
+}
+
+.jumbotron h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.jumbotron h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
